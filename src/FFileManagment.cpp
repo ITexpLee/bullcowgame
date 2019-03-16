@@ -27,7 +27,7 @@ void FFileManagment::WordInnitialize()
 	}
 	else {
 
-		int count = 1;
+		int count = 0;
 		int rand_number = RandomNumber();
 		std::string word = "";
 
