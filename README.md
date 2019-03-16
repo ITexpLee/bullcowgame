@@ -1,0 +1,1 @@
+BullCow game created to learn C++, Lots of comments, project adheres to best practices to the best of my knowledge so I am uploading it as a reference / refresher project to fiddle with. Added functionality to add words to a txt file. The .txt file is auto generated the first time you play the game.
