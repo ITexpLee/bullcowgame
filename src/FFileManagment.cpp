@@ -27,7 +27,7 @@ void FFileManagment::WordInnitialize()
 	}
 	else {
 
-		int count = 0;
+		int count = 1;
 		int rand_number = RandomNumber();
 		std::string word = "";
 
@@ -46,8 +46,8 @@ void FFileManagment::WordInnitialize()
 		ReadWordFile.close();
 
 		// Uncomment to see the word and location of the word in the Words.txt file
-		 std::cout << "the word number is " << count << std::endl;
-		 std::cout << "the playword is " << PlayWord << std::endl;
+		// std::cout << "the word number is " << count << std::endl;
+		// std::cout << "the playword is " << PlayWord << std::endl;
 	}
 
 	return;
